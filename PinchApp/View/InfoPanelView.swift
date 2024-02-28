@@ -62,5 +62,4 @@ struct InfoPanelView: View {
         .preferredColorScheme(.dark)
         .previewLayout(.sizeThatFits)
         .padding()
-    
 }

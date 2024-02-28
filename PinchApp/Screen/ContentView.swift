@@ -193,9 +193,9 @@ struct ContentView: View {
                 .background(.ultraThinMaterial)
                 .cornerRadius(12)
                 .opacity(isAnimating ? 1 : 0)
-                .frame(width: 260)
+                .frame(width: 350)
                 .padding(.top, UIScreen.main.bounds.height / 12)
-                .offset(x: isDrawerOpen ? 20 : 215)
+                .offset(x: isDrawerOpen ? 20 : 300)
                 , alignment: .topTrailing
             )
         } //: NAVIGATION
@@ -204,10 +204,6 @@ struct ContentView: View {
 }
 
 // MARK: - PREVIEW
-
-//#Preview {
-//    ContentView()
-//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
